@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Secure AWS App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to My Secure AWS Application</h1>
+  <p>This app demonstrates AWS security best practices.</p>
+  <form action="/submit" method="POST">
+    <input type="text" name="message" placeholder="Enter message" required />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+style.css
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  color: #333;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0073bb;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
